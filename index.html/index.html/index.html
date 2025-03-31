@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <audio id="love-song" loop>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+    <button id="music-btn" onclick="toggleMusic()">🎵 Play Love Song</button>
+    
+
+    <!-- Background Meteor Effect -->
+    <div id="meteor-container"></div>
+
+    <div class="container">
+        <h1 class="glowing-text">Our Beautiful Journey 👩‍❤️‍👨</h1>
+
+        <h2>Time Left Until Our Anniversary 💖</h2>
+<p id="countdown" style="font-size: 24px; font-weight: bold; color: pink;"></p>
+
+        
+
+        <!-- Fireworks -->
+        <div class="fireworks"></div>
+
+        <!-- Love Letter -->
+        <div class="letter">
+            <p>Dear Love,</p>
+            <p>From the moment our eyes met, you painted my world in colors I never knew existed. Every heartbeat whispers your name, every smile carries your warmth, and every dream is a journey to you. ❤️✨</p>
+            <p>Happy Anniversary, My Love! 🥰</p>
+        </div>
+
+        <div class="video-section">
+            <h2>Our Journey Begins 🎥❤</h2>
+            <video controls>
+                <source src="videos/memory.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div id="typewriter-container">
+            <p id="typewriter-text"></p>
+        </div>
+        <!-- Photo Gallery -->
+        <div class="gallery">
+            <img src="images/photo1.jpg" alt="Memory 1">
+            <img src="images/photo@.jpg" alt="Memory 2">
+            <img src="images/photo!.jpg" alt="Memory 3">
+            <img src="images/photo2.jpg" alt="Memory 4">
+            <img src="images/photo3.jpg" alt="Memory 5">
+            <img src="images/photo4.jpg" alt="Memory 6">
+            <img src="images/photo5.jpg" alt="Memory 7">
+            <img src="images/photo6.jpg" alt="Memory 8">
+            <img src="images/photo7.jpg" alt="Memory 9">
+            <img src="images/photo8.jpg" alt="Memory 10">
+        </div>
+        
+        <!-- Second Video -->
+        <div class="video-section">
+            <h2>💖 Second Propose? 💖</h2>
+            <video controls>
+                <source src="videos/memory1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div id="love-letter-box">
+            <div id="love-letter">
+                <h2>My Dearest Aviparna,</h2>
+                <p>You are my love, my happiness, my everything... ❤️</p>
+                <p>Every moment with you is magical. I love you forever! 💖</p>
+            </div>
+        </div>
+        
+        
+        </div>
+        
+        <div class="gallery">
+         
+            <img src="images/photo56.jpg" alt="Memory 11">
+            <img src="images/photo9.jpg" alt="Memory 12">
+            <img src="images/photo10.jpg" alt="Memory 13">
+            <img src="images/photo11.jpg" alt="Memory 14">
+            <img src="images/photo12.jpg" alt="Memory 15">
+            <img src="images/photo13.jpg" alt="Memory 16">
+            <img src="images/photo14.jpg" alt="Memory 16">
+            <img src="images/photo15.jpg" alt="Memory 16">
+            <img src="images/photo16.jpg" alt="Memory 16">
+            <img src="images/photo17.jpg" alt="Memory 16">
+
+        </div>
+
+        <!-- Love Map -->
+        <div id="love-map"></div>
+
+        <!-- Zodiac Compatibility -->
+        <div class="zodiac">
+            <h2>Our Zodiac Compatibility 🔮</h2>
+            <p id="zodiac-result">
+                The universe aligned perfectly on **July 12, 2004**, and **December 6, 2005**,  
+                to bring together a **Cancer** and a **Sagittarius**—a pair so unique yet so perfectly balanced.  
+                They say opposites attract, but in our case, it’s more like the stars conspired  
+                to make sure our love story was written in the constellations.  
+                You, my adventurous fire sign, bring excitement and energy to my life,  
+                while I, your caring water sign, nurture and protect our love.  
+                Together, we are a beautiful cosmic dance—unstoppable, undeniable, and infinite.  
+                Our journey will only grow stronger, like a love story that even the stars envy. 💖✨
+            </p>
+        </div>
+
+        <!-- Fun & Romantic Photo Collection -->
+        <div class="photo-memories">
+            <h2>Moments I Stole from You 📸💕</h2>
+            <p>They say a picture is worth a thousand words,  
+                but these pictures? They hold a thousand **"I Love You's"**  
+                and an endless collection of stolen moments.  
+                Every smile, every expression, every adorable pout—I saved them all,  
+                just to remind you how much I cherish you. 😘  
+            </p>
+
+            <div class="fun-gallery">
+                <img src="images/cute7.jpg" class="tilted-right" alt="Best Moment 6">
+                <img src="images/cute1.jpg" class="tilted-left" alt="Cute Moment 1">
+                <img src="images/cute2.jpg" class="tilted-right" alt="Funny Moment 2">
+                <img src="images/cute3.jpg" class="tilted-left" alt="Sweet Moment 3">
+                <img src="images/cute4.jpg" class="tilted-right" alt="Adorable Moment 4">
+                <img src="images/cute5.jpg" class="tilted-left" alt="Lovely Moment 5">
+                <!-- <img src="images/cute6.jpg" class="tilted-right" alt="Crazy Moment 6"> -->
+            </div>
+        </div>
+
+        <!-- AI Love Chatbot -->
+        <div id="chatbot">
+            <p>Ask me anything about us! 💬</p>
+            <input type="text" id="chat-input" placeholder="Type here...">
+            <button id="chat-button">Send</button>
+            <p id="chat-response"></p>
+        </div>
+        
+        
+    </div>
+    <div id="love-section">
+        <button id="loveButton">Tap to See</button>
+        <h1 id="loveMessage" class="hidden">I LOVE YOU AVIPARNA</h1>
+    </div>
+    <script>
+        document.getElementById("loveButton").addEventListener("click", function() {
+            document.getElementById("loveMessage").classList.remove("hidden");
+            this.style.display = "none"; // Hides the button after clicking
+        });
+        </script>
+        <script>
+            const text = "Every moment with you is magical, and I love you more than words can say.";
+            let index = 0;
+        
+            function typeWriter() {
+                if (index < text.length) {
+                    document.getElementById("typewriter-text").innerHTML += text.charAt(index);
+                    index++;
+                    setTimeout(typeWriter, 100); 
+                }
+            }
+        
+            window.onload = typeWriter;
+        </script>
+        <script>
+            document.addEventListener("click", function (event) {
+                let star = document.createElement("div");
+                star.classList.add("shooting-star");
+                document.body.appendChild(star);
+        
+                star.style.left = `${event.clientX}px`;
+                star.style.top = `${event.clientY}px`;
+        
+                setTimeout(() => {
+                    star.remove();
+                }, 1000);
+            });
+        </script>
+        <script>
+            let music = document.getElementById("love-song");
+            let musicBtn = document.getElementById("music-btn");
+            
+            function toggleMusic() {
+                if (music.paused) {
+                    music.play();
+                    musicBtn.innerText = "⏸ Pause Love Song";
+                } else {
+                    music.pause();
+                    musicBtn.innerText = "🎵 Play Love Song";
+                }
+            }
+        </script>
+        <script>
+            function updateCountdown() {
+    const anniversaryDate = new Date("2025-04-01T00:00:00"); // Set target date & time
+    const now = new Date(); // Get current time
+    const timeDifference = anniversaryDate - now; // Get time difference in milliseconds
+
+    if (timeDifference > 0) {
+        const hours = Math.floor((timeDifference / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((timeDifference / (1000 * 60)) % 60);
+        const seconds = Math.floor((timeDifference / 1000) % 60);
+
+        document.getElementById("countdown").innerHTML =
+            `${hours}h ${minutes}m ${seconds}s`;
+    } else {
+        document.getElementById("countdown").innerHTML = "It's our anniversary! 🎉";
+    }
+}
+
+// Update countdown every second
+setInterval(updateCountdown, 1000);
+updateCountdown(); // Run function immediately
+
+        </script>
+        <script>
+            const loveWords = ["Love", "Forever", "Happiness", "Soulmate", "Dream", "Magic", "Us"];
+        
+            setInterval(() => {
+                let word = document.createElement("div");
+                word.classList.add("floating-word");
+                word.innerText = loveWords[Math.floor(Math.random() * loveWords.length)];
+                document.body.appendChild(word);
+        
+                word.style.left = `${Math.random() * 100}vw`;
+                word.style.animationDuration = `${Math.random() * 3 + 2}s`;
+        
+                setTimeout(() => {
+                    word.remove();
+                }, 5000);
+            }, 1000);
+        </script>
+        
+        
+</body>
+</html>

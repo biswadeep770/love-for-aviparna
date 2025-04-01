@@ -241,13 +241,13 @@ h1.glowing-text {
 }
 
 /* 🎶 AI Chatbot */
-#chatbot {
+/* #chatbot {
     background: rgba(255, 255, 255, 0.1);
     padding: 15px;
     border-radius: 10px;
     width: 50%;
     margin: 30px auto;
-}
+} */
 
 /* ❤ Romantic Buttons */
 button {
@@ -417,4 +417,23 @@ body {
     color: black;
     font-size: 18px;
 }
+/* Basic styling for chat container */
+/* Basic styling for chat container */
+/* 🎶 AI Chatbot */
+#chatbot {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 30px auto;
+}
+#heartCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* Prevents interaction issues */
+}
+
 
